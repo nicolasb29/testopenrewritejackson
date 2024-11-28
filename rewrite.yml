@@ -1,0 +1,9 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: org.openrewrite.FindSpringUses
+displayName: Find all Spring uses
+description: This is an example of a custom recipe.
+recipeList:
+  - org.openrewrite.java.search.FindMethods:
+      methodPattern: org.springframework..*
+---
